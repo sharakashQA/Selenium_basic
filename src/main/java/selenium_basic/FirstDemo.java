@@ -17,6 +17,7 @@ public class FirstDemo {
 		
 		System.out.println("Title of the page is: " + title);
 		driver.close();
+		driver.quit();
 	}
 	
 	
