@@ -16,7 +16,10 @@ public class FirstDemo {
 		String title = driver.getTitle();
 		
 		System.out.println("Title of the page is: " + title);
+		
+		
 		driver.close();
+		//purpose of quit is to close all the browser windows opened by selenium
 		driver.quit();
 	}
 	
