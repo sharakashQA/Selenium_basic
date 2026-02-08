@@ -2,6 +2,7 @@ package selenium_basic;
 import org.testng.ITestListener;
 
 public class MyListner implements ITestListener {
+	
 
 	@Override
 	public void onTestStart(org.testng.ITestResult result) {
@@ -22,5 +23,5 @@ public class MyListner implements ITestListener {
 	public void onTestSkipped(org.testng.ITestResult result) {
 		System.out.println("Test skipped: " + result.getName());
 	}
-
+	    
 }

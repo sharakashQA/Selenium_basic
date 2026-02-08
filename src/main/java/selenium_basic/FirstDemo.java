@@ -8,14 +8,14 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class FirstDemo {
+public class FirstDemo  {
 	WebDriver driver;
 
 	@BeforeMethod
 	public void setup() {
 		// System.setProperty("webdriver.chrome.driver",
 		// "C:\\Users\\Public\\driver\\chromedriver-win64\\chromedriver.exe");
-
+   
 		// Setup ChromeDriver using WebDriverManager
 		WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
